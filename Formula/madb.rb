@@ -12,6 +12,7 @@ class Madb < Formula
     system "go", "get", "v.io/x/lib/cmdline"
     system "go", "get", "v.io/x/lib/gosh"
     system "go", "get", "v.io/x/lib/textutil"
+	system "go", "get", "github.com/olekukonko/tablewriter"
 
     system "go", "build", "-o", "madb", "-ldflags", "-X main.version=v#{version}"
     bin.install "madb"
