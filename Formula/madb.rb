@@ -1,8 +1,8 @@
 class Madb < Formula
   desc "Multi-device Android Debug Bridge (madb)"
   homepage "https://github.com/vanadium/madb"
-  url "https://github.com/vanadium/madb/releases/download/v1.1.1/madb-v1.1.1-src.tar.gz"
-  sha256 "012b1ad2228b9bacb0d5d8a176993bf67a7c6911773eecacbb2cde549d999935"
+  url "https://github.com/vanadium/madb/releases/download/v2.0.0/madb-v2.0.0-src.tar.gz"
+  sha256 "0c7e2daf061ce819d656f69a5088a62a22ce78fe1f9c39823440e491cdea7182"
 
   depends_on "go" => :build
 
